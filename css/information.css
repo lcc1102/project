@@ -1,0 +1,171 @@
+.smvWrapper{
+    min-width: 1200px;
+    min-height: 300px;
+    height: 654px;
+    background-size: auto;
+    margin-top: 20px;
+}
+.smvContainer{
+    position: relative;
+    min-height: 400px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.esmartMargin{
+    position: absolute;
+    height: 602px;
+    width: 1102px;
+    left: 53px;
+    top: 51px;
+    z-index: 2;
+}
+.yibuFrameContent4{
+    overflow: visible;
+    height: 100%;
+    width: 100%;
+}
+.ul-xn-resize{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.w-list-item{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #CCC;
+    text-align: left;
+}
+.w-list-item .w-list-date {
+    padding: 0 5px 0 10px;
+    margin: 0;
+    float: right;
+    color: #BBB;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+.w-list-item .w-list-inner-div {
+    padding: 0 0 0 5px;
+    margin-left: 16px;
+}
+.w-list-item .w-list-i {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    color: #666;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}
+.w-list-item .w-list-link:hover {
+    color: #333;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
+.w-list-item .w-list-link {
+    padding: 0;
+    margin-left: 0;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+    transition: all 200ms linear;
+}
+
+
+
+/*分页跳转开始*/
+.xn-resize{
+    margin: 20px auto;
+    display: table;
+    padding: 0;
+    font-family: Arial,"Lucida Grande","Microsoft Yahei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,STHeiti;
+    font-size: 12px;
+}
+.w-page-rectang:after {
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+.w-page-cm {
+    width: 67px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.xn-resize ul li{
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.w-page-cm.disabled {
+    opacity: .5;
+}
+.xn-resize ul li em {
+    font-style: normal;
+    color: #666;
+}
+.w-page-rectang li a {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    color: #666;
+    background: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+}
+.line-height{
+    margin-right: 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 14px;
+    vertical-align: middle
+}
+.w-page-rectang li:nth-of-type(4) span{
+    margin-right: 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.w-page-rectang li:nth-of-type(4) input{
+    border-radius: 16px;
+    width: 67px;
+    padding: 0 4px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+    *display: inline-block;
+    text-align: center;
+}
+/*分页跳转结束*/

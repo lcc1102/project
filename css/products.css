@@ -1,0 +1,270 @@
+.pro-wrapper{
+    width: 100%;
+}
+.smareac ,.yibuFrame{
+    width: 1200px;
+    margin: 0 auto;
+}
+.yibuFrame{
+    height: 100%;
+}
+.smareac a img{
+    width: 1200px;
+    height: 260px;
+}
+.w-list-xn{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.w-list-item{
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    float: left;
+    width: 282px;
+    min-width: 100px;
+    overflow: hidden;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background: -moz-linear-gradient(top, none, none);
+    background: -o-linear-gradient(top, none, none);
+    background: linear-gradient(top, none, none);
+    background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+    border-top-width: 1px;
+    border-top-color: #f5f5f5;
+    border-top-style: solid;
+    border-bottom-color: #f5f5f5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-right-color: #f5f5f5;
+    border-right-style: solid;
+    border-left-color: #f5f5f5;
+    border-left-style: solid;
+    border-left-width: 1px;
+    list-style: none;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.w-list-ul .w-list-item .w-list-link .img-pic{
+    padding: 0;
+    margin: 0;
+    width: 282px;
+    min-width: 100px;
+    height: 220px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.img-pic .w-listpic-in{
+    width: 282px;
+    min-width: 100px;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    border: none;
+    -webkit-transition: transform .3s linear;
+    -moz-transition: transform .3s linear;
+    -o-transition: transform .3s linear;
+    -ms-transition: transform .3s linear;
+    transition: transform .3s linear;
+}
+.w-listpic-in:hover {
+    /* -webkit-transform: scale(1.1) !important; */
+    -moz-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+}
+.w-list-bottom {
+    padding: 0 10px 10px 10px;
+    margin: 0;
+}
+.w-list-title {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    line-height: 28px;
+    height: 28px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 14px;
+    color: #404040;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei';
+    transition: color 200ms linear;
+}
+.w-list-desc{
+    height: 20px;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei';
+}
+.w-list-btn {
+    display: block;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background: -moz-linear-gradient(top, none, none);
+    background: -o-linear-gradient(top, none, none);
+    background: linear-gradient(top, none, none);
+    background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.w-list-btn:hover {
+    border-color: #000000;
+    background-color: rgb(0, 0, 0);
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background: -moz-linear-gradient(top, none, none);
+    background: -o-linear-gradient(top, none, none);
+    background: linear-gradient(top, none, none);
+    background: -webkit-gradient(linear, left top, left bottom, from(none), to(none));
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+.xn-resize{
+    display: table;
+    margin: 20px auto;
+    padding: 0;
+    font-family: Arial,"Lucida Grande","Microsoft Yahei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,STHeiti;
+    font-size: 12px;
+}
+.w-page-rectang:after {
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+.w-page-cm {
+    width: 67px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.xn-resize ul li{
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.w-page-cm.disabled {
+    opacity: .5;
+}
+.xn-resize ul li em {
+    font-style: normal;
+    color: #666;
+}
+.w-page-rectang li a {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    color: #666;
+    background: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+}
+.line-height{
+    margin-right: 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 14px;
+    vertical-align: middle
+}
+.w-page-rectang li:nth-of-type(4) span{
+    margin-right: 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.w-page-rectang li:nth-of-type(4) input{
+    border-radius: 16px;
+    width: 67px;
+    padding: 0 4px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    outline: none;
+    *display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
